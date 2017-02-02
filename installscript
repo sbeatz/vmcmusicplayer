@@ -1,0 +1,4 @@
+sudo apt-get install python-twisted -y
+wget /etc/init.d/hyper.sh
+wget /home/pi/hs.py
+sudo chmod a+x hyper.sh
