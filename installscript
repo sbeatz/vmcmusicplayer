@@ -1,8 +1,8 @@
 #! /bin/sh
 sudo apt-get install python-twisted -y
-sudo wget https://github.com/sbeatz/vmcmusicplayer/raw/master/hyper.sh
-sudo wget https://github.com/sbeatz/vmcmusicplayer/raw/master/hs.py
-sudo mv hyper.sh /etc/init.d
+sudo wget https://github.com/sbeatz/vmcmusicplayer/raw/master/hyper.sh -P /etc/init.d
+sudo wget https://github.com/sbeatz/vmcmusicplayer/raw/master/hs.py -P /home
+#sudo mv hyper.sh /etc/init.d
 sudo chmod a+x /etc/init.d/hyper.sh
 sudo update-rc.d hyper.sh defaults
 sudo rm installscript
