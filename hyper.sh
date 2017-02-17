@@ -8,4 +8,4 @@
 # Short-Description: hyperion-remote
 # Description:       hyperion-remote server
 ### END INIT INFO
-python /home/pi/hs.py &
+python /home/hs.py &
